@@ -125,9 +125,8 @@ def is_password_valid(password):
 # Main 
 password     = '*aa1aBCd@'
 print('Password (input): '+ str(password))
-output       = is_password_valid(password)
-text = output
-for t in text:
+output_text       = is_password_valid(password)
+for t in output_text:
     print(t)
 
 ### Finish
