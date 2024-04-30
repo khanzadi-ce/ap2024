@@ -2,11 +2,10 @@
 # Python: 3.9.7
 
 # Library
-from tabulate import tabulate
 import glob
 
 
-
+# functions
 def list_files(directory):
 
     # List all files in a directory and its subdirectories
