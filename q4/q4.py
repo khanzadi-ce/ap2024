@@ -62,9 +62,12 @@ table.extend( [ list(item) for item in words_freq_method_2.items() ] )
 print(tabulate(table, headers="firstrow", tablefmt="grid"))
 
 print('=============================================================')
+print('Number of all words in Method 1: '+ str(sum(words_freq_method_1.values())))
+print('Number of all words in Method 2: '+ str(words_freq_method_2.sum()))
 
 ### Finish
 
 ######################################################################
 # Read more about regular expressions
+
 
